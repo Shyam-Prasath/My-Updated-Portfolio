@@ -1,0 +1,126 @@
+import { getImagePath } from "@/lib/utils";
+import { Skill } from "@/types/skill";
+
+const SkillSetData = (): Skill[] => [
+  {
+    id: 1,
+    name: "HTML5",
+    href: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    image: getImagePath("/images/skillset/html5.png"),
+    imageLight: getImagePath("/images/skillset/html5-dark.png"),
+  },
+  {
+    id: 2,
+    name: "CSS3",
+    href: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    image: getImagePath("/images/skillset/css3.png"),
+    imageLight: getImagePath("/images/skillset/css3-dark.png"),
+  },
+  {
+    id: 3,
+    name: "JavaScript",
+    href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    image: getImagePath("/images/skillset/js.png"),
+    imageLight: getImagePath("/images/skillset/js.png"),
+  },
+  {
+    id: 4,
+    name: "Python",
+    href: "https://www.python.org/",
+    image: getImagePath("/images/skillset/python.png"),
+    imageLight: getImagePath("/images/skillset/python.png"),
+  },
+  {
+    id: 5,
+    name: "PyTorch",
+    href: "https://pytorch.org/",
+    image: getImagePath("/images/skillset/pytorch.png"),
+    imageLight: getImagePath("/images/skillset/pytorch-dark.png"),
+  },
+  {
+    id: 6,
+    name: "TensorFlow",
+    href: "https://www.tensorflow.org/",
+    image: getImagePath("/images/skillset/tensorflow.png"),
+    imageLight: getImagePath("/images/skillset/tensorflow.png"),
+  },
+  {
+    id: 7,
+    name: "Streamlit",
+    href: "https://streamlit.io/",
+    image: getImagePath("/images/skillset/streamlit.png"),
+    imageLight: getImagePath("/images/skillset/streamlit.png"),
+  },
+  {
+    id: 8,
+    name: "React.js",
+    href: "https://react.dev/",
+    image: getImagePath("/images/skillset/react-light.png"),
+    imageLight: getImagePath("/images/skillset/react.png"),
+  },
+  {
+    id: 9,
+    name: "Node.js",
+    href: "https://nodejs.org/",
+    image: getImagePath("/images/skillset/node.png"),
+    imageLight: getImagePath("/images/skillset/node.png"),
+  },
+  {
+    id: 10,
+    name: "Express.js",
+    href: "https://expressjs.com/",
+    image: getImagePath("/images/skillset/express.png"),
+    imageLight: getImagePath("/images/skillset/express.png"),
+  },
+  {
+    id: 11,
+    name: "PySpark",
+    href: "https://spark.apache.org/docs/latest/api/python/",
+    image: getImagePath("/images/skillset/pyspark.png"),
+    imageLight: getImagePath("/images/skillset/pyspark.png"),
+  },
+  {
+    id: 12,
+    name: "MongoDB",
+    href: "https://www.mongodb.com/",
+    image: getImagePath("/images/skillset/mongodb.png"),
+    imageLight: getImagePath("/images/skillset/mongodb-light.png"),
+  },
+  {
+    id: 13,
+    name: "Mongoose",
+    href: "https://mongoosejs.com/",
+    image: getImagePath("/images/skillset/mongoose.png"),
+    imageLight: getImagePath("/images/skillset/mongoose.png"),
+  },
+  {
+    id: 14,
+    name: "Git",
+    href: "https://git-scm.com/",
+    image: getImagePath("/images/skillset/git.png"),
+    imageLight: getImagePath("/images/skillset/git.png"),
+  },
+  {
+    id: 15,
+    name: "GitHub",
+    href: "https://github.com/",
+    image: getImagePath("/images/skillset/github.png"),
+    imageLight: getImagePath("/images/skillset/github-light.png"),
+  },
+  //{
+    //id: 16,
+    //name: "VS Code",
+    //href: "https://code.visualstudio.com/",
+    //image: getImagePath("/images/skillset/vscode.png"),
+    //imageLight: getImagePath("/images/skillset/vscode.png"),
+  //},
+  {
+    id: 17,
+    name: "Postman",
+    href: "https://www.postman.com/",
+    image: getImagePath("/images/skillset/postman.png"),
+    imageLight: getImagePath("/images/skillset/postman-dark.png"),
+  },
+];
+
+export default SkillSetData;
