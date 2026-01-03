@@ -10,7 +10,7 @@ const Skill = () => {
     >
       <div className="container">
         <SectionTitle
-          title="Our Latest Skills"
+          title="My Latest Skills"
           center
         />
 
