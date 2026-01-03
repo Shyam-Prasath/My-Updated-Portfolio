@@ -6,13 +6,10 @@ This website showcases my **skills, experience, projects, awards, and contact in
 ---
 
 ## 🌐 Live Preview
-> (Add deployment link once deployed)
 ```
-
-[https://your-live-link.vercel.app](https://your-live-link.vercel.app)
+https://your-live-link.vercel.app
 
 ````
-
 ---
 
 ## ✨ Features
@@ -132,3 +129,4 @@ Steps:
 4. Deploy 🎉
 
 ---
+
